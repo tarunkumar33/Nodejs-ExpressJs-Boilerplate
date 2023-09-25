@@ -9,4 +9,7 @@ app.use(helmet());
 
 
 
+// enable cross origin resource sharing
+app.use(cors());
+
 export default app;
